@@ -1,0 +1,343 @@
+.fondo{
+    height: 0px;
+    
+}
+.titulo{
+   /*  background-color: aqua; */
+    position:relative
+    ;left: 500px;
+    height: 60px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #ffff;
+    font-size: 70px;
+}
+
+
+.fondo::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(180deg, #000000b4 0%, #010b41c7 100%), url('../img/Introduccion-a-la-programacion-Abril-2560x950-1.jpg');
+    background-size: cover;
+    
+    z-index: -1;
+}
+h1{
+    font-family: 'Pacifico', cursive;
+    ;color: blanchedalmond;
+    height: 500px;
+}
+
+.aaaa{
+    background-color: aqua;
+}
+
+.babbage {
+    width: 170px;
+    height: 170px;
+    border-radius: 10px;
+    background-color: aqua;
+    
+  
+   
+
+}
+
+li{
+    display: inline;
+}
+
+.berner{
+    width: 170px;
+    height: 170px;
+    border-radius: 10px;
+}
+
+.clarke{
+    width: 170px;
+    height: 170px;
+    border-radius: 10px; 
+}
+
+.hamilton{
+    width: 170px;
+    height: 170px;
+    border-radius: 10px; 
+}
+
+.lovelace{
+    width: 170px;
+    height: 170px;
+    border-radius: 10px; 
+}
+
+.hopper{
+    width: 170px;
+    height: 170px;
+    border-radius: 10px; 
+}
+
+.turing{
+    width: 170px;
+    height: 170px;
+    border-radius: 10px; 
+    right: 20px;
+}
+
+.programadores{
+    left: 20px;
+}
+
+ul{
+    left: 40px;
+}
+
+.boee{
+    
+    width: 170px;
+    height: 170px;
+    display: inline;
+   
+}
+
+.boee img{
+
+   
+    transform: scale(1);
+    transition:  .3s ease-in-out;
+
+    
+
+}
+
+.boee:hover img{
+    transform: scale(1.1);
+}
+
+li{
+    display: inline-block;
+}
+
+.fondo2{
+    height: 0px;
+
+    
+}
+
+.fondo2::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(180deg, #000000de 0%, #000000e5 100%), url('../img/baddage.jpg');
+    background-size: cover;
+    
+    z-index: -1;
+}
+
+.baddage2{
+    width: 470px;
+    height: 470px;
+    border-radius: 230px;
+    position:absolute;
+    top:80px;
+    left: 60px;
+}
+
+p{
+    
+    width: 480px;
+    position:absolute;
+    top: 160px;
+    left: 600px;
+    font-size: 20px;
+}
+
+.fondo3{
+    height: 0px;
+
+    
+}
+
+.fondo3::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(180deg, #000000de 0%, #000000e5 100%), url('../img/24015658-web-erfinder-tim-berners-lee-am-cern-3jJCBl9Tmpe9.jpg');
+    background-size: cover;
+    
+    z-index: -1;
+}
+
+.bernes2{
+    width: 470px;
+    height: 470px;
+    border-radius: 230px;
+    position:absolute;
+    top:80px;
+    left: 60px;
+}
+
+
+.fondo4{
+    height: 0px;
+
+    
+}
+
+.fondo4::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(180deg, #000000de 0%, #000000e5 100%), url('../img/EC1.jpg');
+    background-size: cover;
+    
+    z-index: -1;
+}
+
+.clarke2{
+    width: 470px;
+    height: 470px;
+    border-radius: 230px;
+    position:absolute;
+    top:80px;
+    left: 60px;
+
+}
+
+.fondo5{
+    height: 0px;
+
+    
+}
+
+.fondo5::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(180deg, #000000de 0%, #000000e5 100%), url('../img/margaret-hamilton1\ \(1\).jpg');
+    background-size: cover;
+    
+    z-index: -1;
+}
+
+.hamilton2{
+    width: 470px;
+    height: 470px;
+    border-radius: 230px;
+    position:absolute;
+    top:80px;
+    left: 60px;
+
+}
+
+.fondo6{
+    height: 0px;
+
+    
+}
+
+.fondo6::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(180deg, #000000de 0%, #000000e5 100%), url('../img/grace-hopper-work.jpg');
+    background-size: cover;
+    
+    z-index: -1;
+}
+
+.hopper2{
+    width: 470px;
+    height: 470px;
+    border-radius: 230px;
+    position:absolute;
+    top:80px;
+    left: 60px;
+
+}
+
+.fondo7{
+    height: 0px;
+
+    
+}
+
+.fondo7::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(180deg, #000000de 0%, #000000e5 100%), url('../img/2020-29-Ada-Lovelace.jpg');
+    background-size: cover;
+    
+    z-index: -1;
+}
+
+.lovelace2{
+    width: 470px;
+    height: 470px;
+    border-radius: 230px;
+    position:absolute;
+    top:80px;
+    left: 60px;
+
+}
+
+
+
+.fondo8{
+    height: 0px;
+
+    
+}
+
+.fondo8::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(180deg, #000000de 0%, #000000e5 100%), url('../img/alan_turing.jpg');
+    background-size: cover;
+    
+    z-index: -1;
+}
+
+.turing2{
+    width: 470px;
+    height: 470px;
+    border-radius: 230px;
+    position:absolute;
+    top:80px;
+    left: 60px;
+
+}
+
